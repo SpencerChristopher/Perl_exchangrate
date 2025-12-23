@@ -1,0 +1,25 @@
+# Ignore environment files
+.env
+*.env
+
+# Ignore build and packaging directories
+/blib
+/pm_to_blib
+/_build/
+
+# Ignore test and coverage files
+/cover_db/
+*.t.out
+
+# Ignore editor and OS files
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Ignore perl-related files
+inc/
+MYMETA.*
+MANIFEST.bak
+Makefile.old

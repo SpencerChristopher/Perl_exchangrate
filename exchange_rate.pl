@@ -6,14 +6,14 @@ use utf8;
 # Core dependencies
 use Getopt::Long qw(GetOptions);
 use LWP::UserAgent;
-use JSON::PP qw(decode_json);
+use JSON::MaybeXS qw(decode_json);
 use Try::Tiny;
 
 # Turn on autoflush for stdout
 $| = 1;
 
 # --- Constants ---
-use constant API_BASE_URL => 'https://api.frankfurter.dev';
+use constant API_BASE_URL => 'https://api.frankfurter.app';
 
 # --- Subroutines ---
 

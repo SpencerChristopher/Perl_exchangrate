@@ -4,7 +4,7 @@
 
 ## Overview
 
-This is a command-line Perl script that fetches real-time currency exchange rates from the free `frankfurter.dev` API and calculates the converted value for a given amount.
+A command-line Perl script that fetches real-time currency exchange rates from the free `frankfurter.dev` API and calculates the converted value for a given amount.
 
 ## Prerequisites
 
